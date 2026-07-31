@@ -1,8 +1,24 @@
 aid: monak-e-services
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monak-e-services.png
 name: Monak E-Services
-description: Monak E-Services is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Monak E-Services (Monak) is a fintech and lifestyle super-app serving working expats,
+  travelers, and locals across the Middle East (UAE, Saudi Arabia, and Oman). The consumer app bundles
+  banking (local accounts, debit cards, remittance, and forex), health (medical visa, pharmacy, and
+  insurance), and daily essentials (groceries, food, taxi, bill payments, and mobile/TV recharge),
+  while a B2B side offers recruiters workforce onboarding and tracking software plus flight bookings,
+  PRO services, and airport transfers. A 500 Global portfolio company. As of this enrichment pass the
+  company publishes no public API, developer portal, or developer documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/monak-e-services/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +28,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Banking
+- Remittance
+- Payments
+- Super App
+- Middle East
+- Expat Services
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/monak-e-services-domain-security.yml
 - type: Website
   url: https://monakapp.com
